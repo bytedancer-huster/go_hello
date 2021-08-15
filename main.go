@@ -58,6 +58,7 @@ func login(c *gin.Context)  {
 }
 
 func main() {
+	//
 	r := gin.Default()
 	r.GET("/get_user_info", getUserInfo)
 	r.GET("/login", login)
